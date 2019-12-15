@@ -3,28 +3,28 @@
 # This file is distributed under the same license as the gnulib package.
 #
 # # Merged from textutils, sh-utils and fileutils translation:
+#
 # # Yip Chi Lap <clyip@cs.hku.hk>, 1998.
 # # Yuan-Chung Cheng <platin@ms.ccafps.khc.edu.tw>, 1998.
 # # Abel Cheung <abelcheung@gmail.com>, 2002.
 # # Pofeng Lee <pofeng@linux.org.tw>, 1998, 2002.
 # Abel Cheung <abelcheung@gmail.com>, 2005.
 # pan93412 <pan93412@gmail.com>, 2019.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: gnulib 4.0.0.2567\n"
 "Report-Msgid-Bugs-To: bug-gnulib@gnu.org\n"
 "POT-Creation-Date: 2019-05-18 19:06+0200\n"
-"PO-Revision-Date: 2019-12-06 23:21+0800\n"
+"PO-Revision-Date: 2019-12-15 13:01+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
-"Language-Team: Chinese (traditional) <zh-l10n@lists.linux.org.tw>\n"
+"Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Lokalize 19.12.0\n"
 
 #: lib/argmatch.c:134
 #, c-format
@@ -61,7 +61,9 @@ msgid "Garbage in ARGP_HELP_FMT: %s"
 msgstr "ARGP_HELP_FMT 中的廢棄內容：%s"
 
 #: lib/argp-help.c:1228
-msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
+msgid ""
+"Mandatory or optional arguments to long options are also mandatory or"
+" optional for any corresponding short options."
 msgstr "長選項所使用的參數，在相對應的短選項也必須使用。"
 
 #: lib/argp-help.c:1617
@@ -480,7 +482,7 @@ msgstr "所有請求完成"
 
 #: lib/gai_strerror.c:74
 msgid "Interrupted by a signal"
-msgstr "遭信號中止"
+msgstr "遭信號中斷"
 
 #: lib/gai_strerror.c:75
 msgid "Parameter string not correctly encoded"
@@ -757,11 +759,11 @@ msgstr "掛斷"
 
 #: lib/siglist.h:34
 msgid "Interrupt"
-msgstr "中止"
+msgstr "中斷"
 
 #: lib/siglist.h:37
 msgid "Quit"
-msgstr "結束"
+msgstr "退出"
 
 #: lib/siglist.h:40
 msgid "Illegal instruction"
@@ -773,11 +775,11 @@ msgstr "追蹤 / 斷點陷阱"
 
 #: lib/siglist.h:46
 msgid "Aborted"
-msgstr "取消"
+msgstr "中止"
 
 #: lib/siglist.h:49
 msgid "Floating point exception"
-msgstr "期望浮點數"
+msgstr "浮點數例外"
 
 #: lib/siglist.h:52
 msgid "Killed"
